@@ -4,6 +4,8 @@ import Grid from '@mui/material/Grid'
 import Typography from '@mui/material/Typography'
 import Button from '@mui/material/Button'
 import Paper from '@mui/material/Paper'
+import heroIllustration from '../assets/hero.svg'
+
 
 
 export default function Hero() {
@@ -23,13 +25,13 @@ Book by Barter makes it easy to exchange books with fellow readers in your neigh
 
 
 <Grid item xs={12} md={6}>
-<Box sx={{ width: '100%', height: 360, borderRadius: 3, overflow: 'hidden', boxShadow: 3 }}>
-  <img 
-    src="/src/assets/hero.svg" 
-    alt="Book by Barter illustration" 
-    style={{ width: '100%', height: '100%', objectFit: 'cover' }} 
-  />
-</Box>
+    <Box sx={{ width: '100%', height: 360, borderRadius: 3, overflow: 'hidden', boxShadow: 3 }}>
+      <img
+        src={heroIllustration}
+        alt="Book by Barter illustration"
+        style={{ width: '100%', height: '100%', objectFit: 'cover' }}
+      />
+    </Box>
 </Grid>
 </Grid>
 </Box>
